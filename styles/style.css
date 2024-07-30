@@ -89,3 +89,54 @@ section, header{
 }
 /* donate today styles ends here */
 
+/* do plan design starts here */
+.donate-plan{
+    text-align: center;
+}
+.plan-text-container h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.plan-cards{
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+    gap: 1.45rem;
+}
+.card-1 img{
+    margin-top: 3.8rem;
+}
+.card-2 img{
+    margin-top: 3.8rem;
+}
+.card-3 img{
+    margin-top: 3.8rem;
+}
+.card-1{
+    width: 22.5rem;
+    height: 22rem;
+    border-radius: 0.5rem;
+    background: rgba(79, 157, 166, 0.1);
+    padding: 1rem;
+    text-align: left;
+}
+.card-2{
+    width: 22.5rem;
+    height: 22rem; 
+    border-radius: 0.5rem; 
+    background: rgba(255, 89, 89, 0.1); 
+    padding: 1rem;
+    text-align: left;
+}
+.card-3{
+    width: 22.5rem;
+    height: 22rem; 
+    border-radius: 0.5rem;  
+    background: rgba(109, 109, 4, 0.1);
+    padding: 1rem;
+    text-align: left;
+}
+
+/* do plan design ends here */
