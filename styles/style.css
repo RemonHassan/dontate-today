@@ -4,6 +4,9 @@ body{
     font-family: "Inter", sans-serif;
     margin: 0px;   
 }
+section, header{
+    margin-bottom: 10rem;
+}
 /* shared styles starts here */
 .primary-btn{
     border-radius: 0.425rem;
@@ -14,6 +17,12 @@ body{
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+}
+.gray-small-text{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-weight: 400;   
 }
 /* header styles ends here */
 .header-tex-container{
@@ -38,3 +47,45 @@ body{
     font-weight: 400;    
 }
 /* header styles ends  here */
+
+/* donate today styles starts here */
+.donate-today{
+    text-align: center;
+}
+.donate-text-container h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.amounts button{
+    margin-top: 3rem;
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 1.85rem;
+    font-weight: 700;
+    padding: 3rem 1.5rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    background: rgb(250, 250, 250);  
+    margin-right: 15px;
+    margin-bottom: 3rem; 
+}
+.amounts button:hover{
+    background-color: rgb(255, 238, 238);
+    border: 2px solid rgb(255, 89, 89);
+}
+.donate-input input{
+    border: none;
+    color: rgb(179, 179, 179);
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.donate-input hr{
+    width: 50%;
+    margin-bottom: 1.5rem; 
+}
+/* donate today styles ends here */
+
